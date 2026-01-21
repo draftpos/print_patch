@@ -242,3 +242,24 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+# in havano_restaurant_pos/hooks.py (or your app's hooks.py)
+fixtures = [
+    {
+        "dt": "Custom Field",
+        "filters": [
+            ["name", "in", [
+                "Company-custom_bank",
+                "Company-custom_account_name",
+                "Company-custom_bank_branch",
+                "Company-custom_account_usd",
+                "Company-custom_account_zwg"
+            ]]
+        ]
+    },
+    {
+        "dt": "Print Format",
+        "filters": [
+            ["name", "=", "Fiscal Print 2"]
+        ]
+    }
+]

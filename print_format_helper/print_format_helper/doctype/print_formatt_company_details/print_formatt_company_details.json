@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-01-21 12:38:03.312014",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "banking_details",
+  "bank_name",
+  "account_name",
+  "column_break_nkji",
+  "bank_branch",
+  "account_usd",
+  "account_zwg"
+ ],
+ "fields": [
+  {
+   "fieldname": "banking_details",
+   "fieldtype": "Data",
+   "label": "Banking Details"
+  },
+  {
+   "fieldname": "bank_name",
+   "fieldtype": "Data",
+   "label": "Bank Name"
+  },
+  {
+   "fieldname": "account_name",
+   "fieldtype": "Data",
+   "label": "Account Name "
+  },
+  {
+   "fieldname": "column_break_nkji",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bank_branch",
+   "fieldtype": "Data",
+   "label": "Bank Branch"
+  },
+  {
+   "fieldname": "account_usd",
+   "fieldtype": "Data",
+   "label": "Account USD"
+  },
+  {
+   "fieldname": "account_zwg",
+   "fieldtype": "Data",
+   "label": "Account ZWG"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2026-01-21 12:39:50.932055",
+ "modified_by": "Administrator",
+ "module": "Print Format Helper",
+ "name": "print formatt company details",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
