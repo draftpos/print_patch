@@ -252,7 +252,9 @@ fixtures = [
                 "Company-custom_account_name",
                 "Company-custom_bank_branch",
                 "Company-custom_account_usd",
-                "Company-custom_account_zwg"
+                "Company-custom_account_zwg",
+                "Company-custom_image_logo"
+
             ]]
         ]
     },
