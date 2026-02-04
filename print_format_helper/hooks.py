@@ -254,7 +254,6 @@ fixtures = [
                 "Company-custom_account_usd",
                 "Company-custom_account_zwg",
                 "Company-custom_image_logo"
-
             ]]
         ]
     },
@@ -262,6 +261,17 @@ fixtures = [
         "dt": "Print Format",
         "filters": [
             ["name", "=", "Fiscal Print 2"]
+        ]
+    },
+    {
+        "dt": "Number Card",
+        "filters": [
+            ["name", "in", [
+                "Net Profit",
+                "Total Stock Value",
+                "Total Sales Today",
+                "Total Sales Yesterday"
+            ]]
         ]
     }
 ]
