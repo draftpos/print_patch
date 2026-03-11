@@ -260,10 +260,10 @@ fixtures = [
     {
         "dt": "Print Format",
         "filters": [
-            ["name", "=", "Fiscal Print 2"]
+            ["name", "in", ["Fiscal Print 2", "Fiscal Zimra"]]
         ]
-    },
-    {
+        },
+        {
         "dt": "Number Card",
         "filters": [
             ["name", "in", [
