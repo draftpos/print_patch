@@ -1,0 +1,147 @@
+{
+    "actions": [],
+    "allow_rename": 1,
+    "creation": "2026-04-07 12:00:00.000000",
+    "doctype": "DocType",
+    "editable_grid": 1,
+    "engine": "InnoDB",
+    "field_order": [
+        "title",
+        "customer",
+        "customer_name",
+        "transaction_date",
+        "delivery_date",
+        "company",
+        "contact_person",
+        "contact_email",
+        "shipping_address_name",
+        "customer_address",
+        "address_display",
+        "terms",
+        "items",
+        "total",
+        "total_taxes_and_charges",
+        "grand_total",
+        "base_net_total",
+        "base_grand_total"
+    ],
+    "fields": [{
+            "fieldname": "title",
+            "fieldtype": "Data",
+            "label": "Title"
+        },
+        {
+            "fieldname": "customer",
+            "fieldtype": "Link",
+            "label": "Customer",
+            "options": "Customer"
+        },
+        {
+            "fieldname": "customer_name",
+            "fieldtype": "Data",
+            "label": "Customer Name"
+        },
+        {
+            "fieldname": "transaction_date",
+            "fieldtype": "Date",
+            "label": "Transaction Date"
+        },
+        {
+            "fieldname": "delivery_date",
+            "fieldtype": "Date",
+            "label": "Delivery Date"
+        },
+        {
+            "fieldname": "company",
+            "fieldtype": "Link",
+            "label": "Company",
+            "options": "Company"
+        },
+        {
+            "fieldname": "contact_person",
+            "fieldtype": "Data",
+            "label": "Contact Person"
+        },
+        {
+            "fieldname": "contact_email",
+            "fieldtype": "Data",
+            "label": "Contact Email"
+        },
+        {
+            "fieldname": "shipping_address_name",
+            "fieldtype": "Link",
+            "label": "Shipping Address Name",
+            "options": "Address"
+        },
+        {
+            "fieldname": "customer_address",
+            "fieldtype": "Link",
+            "label": "Customer Address",
+            "options": "Address"
+        },
+        {
+            "fieldname": "address_display",
+            "fieldtype": "Text",
+            "label": "Address Display"
+        },
+        {
+            "fieldname": "terms",
+            "fieldtype": "Text",
+            "label": "Terms"
+        },
+        {
+            "fieldname": "items",
+            "fieldtype": "Table",
+            "label": "Items",
+            "options": "Service Order Item"
+        },
+        {
+            "fieldname": "total",
+            "fieldtype": "Currency",
+            "label": "Total"
+        },
+        {
+            "fieldname": "total_taxes_and_charges",
+            "fieldtype": "Currency",
+            "label": "Total Taxes and Charges"
+        },
+        {
+            "fieldname": "grand_total",
+            "fieldtype": "Currency",
+            "label": "Grand Total"
+        },
+        {
+            "fieldname": "base_net_total",
+            "fieldtype": "Currency",
+            "label": "Base Net Total"
+        },
+        {
+            "fieldname": "base_grand_total",
+            "fieldtype": "Currency",
+            "label": "Base Grand Total"
+        }
+    ],
+    "index_web_pages_for_search": 1,
+    "is_submittable": 1,
+    "links": [],
+    "modified": "2026-04-07 12:00:00.000000",
+    "modified_by": "Administrator",
+    "module": "Print Format Helper",
+    "name": "Service Order",
+    "owner": "Administrator",
+    "permissions": [{
+        "create": 1,
+        "delete": 1,
+        "email": 1,
+        "export": 1,
+        "print": 1,
+        "read": 1,
+        "report": 1,
+        "role": "System Manager",
+        "share": 1,
+        "write": 1
+    }],
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "title_field": "title"
+}
